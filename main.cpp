@@ -66,7 +66,7 @@ int main() {
                 s.del();
                 b = s.hd();
                 s.del();
-                s.add_f(a - b);
+                s.add_f(b - a);
             } else if (str[i] == '*') {
                 int a, b;
                 a = s.hd();
